@@ -5,12 +5,14 @@ class Program
     
     static void Main()
     {
-        //задание 1
+        ///задание 1
         //Console.Write("Введите натуральное число: ");
         //long number = ReadNaturalNumber();
         //long sum = SumOfDigits(number);
         //Console.WriteLine($"Сумма цифр числа {number} равна {sum}.");
 
+
+        ///задание 2
         Console.Write("Введите натуральное чисилио: ");
         long number = ReadNaturalNumber();
         long reversed = ReverseNumber(number);
@@ -19,7 +21,7 @@ class Program
 
     }
 
-  
+  ///задание 1
     //static long ReadNaturalNumber()
     //{
     //    while (true)
@@ -60,7 +62,7 @@ class Program
 
 
 
-
+   ///задание 2
     static long ReadNaturalNumber()
     {
         while (true)
